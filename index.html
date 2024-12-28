@@ -5,6 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pantura Roleplay | Website</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+
+        .admin-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            padding: 2rem 0;
+        }
+
+        .admin-card {
+            background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+            position: relative;
+            aspect-ratio: 2/3;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.3s ease;
+        }
+
+        .admin-image {
+            width: 100%;
+            height: 70%;
+            background: #333;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            object-fit: cover;
+        }
+
+        .admin-info {
+            padding: 0.5rem;
+        }
+
+        .admin-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #ffffff;
+        }
+
+        .admin-role {
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -53,20 +101,60 @@
         </div>
     </section>
 
-    <section class="admin-list">
-        <h2>Staff List</h2>
-        <div class="info-card"> <!-- https://nicholasdevs.xyz -->
-            <ul>
-                <li>Founder   : Dahwenk Lazward</li>
-                <li>Co-Founder : Steven</li>
-                <li>Developer : Joel</li>
-                <li>Mappers   : Ucok</li>
-                <li>Admin : Rogel</li>
-                <li>Admin : Joyyi</li>
-                <li>Admin : Rizki</li>
-            </ul>
+    <div class="container">
+        <h1>OUR TEAM</h1>
+        <div class="admin-grid">
+            <div class="admin-card">
+                <img src="fotoadmin/admin3.png" alt="Dahwenk" class="admin-image">
+                <div class="admin-info">
+                    <div class="admin-name">Dahwenk Lazward</div>
+                    <div class="admin-role">Founder</div>
+                </div>
+            </div>
+            <div class="admin-card">
+                <img src="fotoadmin/admin.png" alt="Steven" class="admin-image">
+                <div class="admin-info">
+                    <div class="admin-name">Steven</div>
+                    <div class="admin-role">Co-Founder</div>
+                </div>
+            </div>
+            <div class="admin-card">
+                <img src="fotoadmin/admin7.png" alt="Joel" class="admin-image">
+                <div class="admin-info">
+                    <div class="admin-name">Joel</div>
+                    <div class="admin-role">Developer</div>
+                </div>
+            </div>
+            <div class="admin-card">
+                <img src="fotoadmin/admin2.png" alt="Ucok" class="admin-image">
+                <div class="admin-info">
+                    <div class="admin-name">Ucok</div>
+                    <div class="admin-role">Mappers</div>
+                </div>
+            </div>
+            <div class="admin-card">
+                <img src="fotoadmin/admin4.png" alt="Rogel" class="admin-image">
+                <div class="admin-info">
+                    <div class="admin-name">Rogel</div>
+                    <div class="admin-role">Admin</div>
+                </div>
+            </div>
+            <div class="admin-card">
+                <img src="fotoadmin/admin6.png" alt="Joyyi" class="admin-image">
+                <div class="admin-info">
+                    <div class="admin-name">Joyyi</div>
+                    <div class="admin-role">Admin</div>
+                </div>
+            </div>
+            <div class="admin-card">
+                <img src="fotoadmin/admin5.png" alt="Rizki" class="admin-image">
+                <div class="admin-info">
+                    <div class="admin-name">Rizki</div>
+                    <div class="admin-role">Admin</div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
 
     <section class="about">
         <h2>About Us</h2>
