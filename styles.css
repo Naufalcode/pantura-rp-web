@@ -18,6 +18,9 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 2px 20px rgb(255, 0, 0);
+    animation: fadeIn 1s ease-in;
+    text-align: center; 
 }
 
 nav {
@@ -42,7 +45,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff5733;
+    color: #da0606;
 }
 
 .hero {
@@ -76,6 +79,9 @@ nav a:hover {
     text-decoration: none;
     border-radius: 5px;
     transition: background 0.3s;
+    box-shadow: 0 2px 10px rgb(255, 255, 255);
+    animation: fadeIn 1s ease-in;
+    text-align: center; 
 }
 
 .btn:hover {
@@ -100,6 +106,9 @@ nav a:hover {
     padding: 20px;
     border-radius: 5px;
     transition: transform 0.3s;
+    box-shadow: 0 2px 10px rgb(255, 255, 255);
+    animation: fadeIn 1s ease-in;
+    text-align: center; 
 }
 
 .feature:hover {
@@ -110,15 +119,16 @@ nav a:hover {
     padding: 20px;
     text-align: center;
     background: hsl(0, 94%, 44%);
-    border: 1px solid #ddd;
-    margin: 20px 0;
+    box-shadow: 0 2px 10px rgb(255, 255, 255);
+    animation: fadeIn 1s ease-in;
+    text-align: center; 
 }
 
 .info-card {
     background: hsla(0, 95%, 25%, 0.548); 
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.87);
     animation: fadeIn 1s ease-in;
 }
 
@@ -135,7 +145,7 @@ nav a:hover {
     background: hsl(0, 100%, 51%); 
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 10px rgb(255, 255, 255);
     animation: fadeIn 1s ease-in;
     text-align: center; 
 }
@@ -150,6 +160,9 @@ footer {
     color: #000000;
     text-align: center;
     padding: 10px 0;
+    box-shadow: 0 2px 20px rgb(255, 0, 0);
+    animation: fadeIn 1s ease-in;
+    text-align: center; 
 }
 
 @keyframes fadeIn {
