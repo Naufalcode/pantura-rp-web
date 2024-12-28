@@ -5,15 +5,15 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Verdana', sans-serif;
     line-height: 1.6;
     background-color: hsl(0, 85%, 16%); 
     color: #ffffff; 
 }
 
 header {
-    background: hsl(0, 95%, 15%);
-    color: #fff;
+    background: hsl(0, 0%, 99%);
+    color: #000000;
     padding: 10px 20px;
     position: sticky;
     top: 0;
@@ -46,7 +46,7 @@ nav a:hover {
 }
 
 .hero {
-    background: url('kontol.png') no-repeat center center/cover;
+    background: url('pantura.png') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -146,8 +146,8 @@ nav a:hover {
 }
 
 footer {
-    background: hsl(0, 96%, 45%);
-    color: #fff;
+    background: hsl(0, 0%, 100%);
+    color: #000000;
     text-align: center;
     padding: 10px 0;
 }
